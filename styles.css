@@ -8,6 +8,16 @@ body {
     font-family: "Roboto", Georgia, 'Times New Roman', Times, serif;
 }
 
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+img#logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
 p {
     margin: 0;
 }
@@ -53,8 +63,8 @@ ul {
 }
 
 .rightContent {
-    width: 800px;
-    height: 250px;
+    width: auto;
+    height: 300px;
     margin-left: 20px;
 }
 
