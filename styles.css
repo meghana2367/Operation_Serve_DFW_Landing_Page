@@ -132,7 +132,45 @@ button {
 
 .quote {
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 150px;
     align-items: flex-start;
     display: flex;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 200px 100px 200px;
+    padding: 50px 130px 50px 130px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.bottomButton {
+    border-color: #f9faf8;
+    border: 2px solid;
+}
+
+#callToAction {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#bottomText {
+    color: lightgrey;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #f9faf8;
 }
