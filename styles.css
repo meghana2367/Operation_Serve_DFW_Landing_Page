@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px 100px 200px;
+}
+
+.left {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.topContent {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin: 10px 200px 100px 200px;
+    align-items: center;
+
+}
+
+.rightContent {
+    width: 800px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    margin-top: 15px;
+    border: none;
+    padding: 10px 32px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+
+.middleContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    margin: 10px 200px 100px 200px;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+}
+
+.info {
+    display: flex;
+    padding: 50px;
+    gap: 15px;
+    color: grey;
+}
+
+.middleText {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+}
+
+.endContent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px 100px 200px;
+    background-color: lightgray;
+}
+
+.endquote {
+    display: flex;
+    margin: 100px 100px 5px 100px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    justify-content: flex-end;
+    margin-right: 100px;
+    align-items: flex-start;
+    display: flex;
+}

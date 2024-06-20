@@ -4,57 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
 </head>
 <body>
-    <div class = header>
-        <ul>
-            <li>Header Logo</li>
-            <li><a>header link one</a></li>
-            <li><a>header link two</a></li>
-            <li><a>header link three</a></li>
-        </ul>
-    </div>
-    <div class = "topContent">
-        <ul>
-            <li>This website is awesome</li>
-            <li>This website has some subtext that goes here under the 
-                main title. It's smaller font and the color is lower contrast
-            </li>
-        </ul>
-        <button>Sign up</button>
-        <img />
+    <div class = "top">
+        <div class = header>
+            <div class = "left">
+                <p>Header Logo</p>
+            </div>
+            <div class = "right">
+                <ul>
+                    <li><a>header link one</a></li>
+                    <li><a>header link two</a></li>
+                    <li><a>header link three</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class = "topContent">
+            <div class = "leftContent">
+                <p class = "mainText">This website is awesome</p>
+                <p class = "secondaryText">This website has some subtext that goes here under the 
+                    main title. It's smaller font and the color is lower contrast
+                </p>
+                <button>Sign up</button>
+            </div>
+            <img class = "rightContent" src = "https://img.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_74190-8189.jpg"/>
+        </div>
     </div>
     <div class = "middleContent">
-        <ul>
-            <li>Some random information.</li>
-            <img/>
-            <li>this is some subtext under an illustration of image</li>
-            <img/>
-            <li>this is some subtext under an illustration of image</li>
-            <img/>
-            <li>this is some subtext under an illustration of image</li>
-            <img/>
-            <li>this is some subtext under an illustration of image</li>
-        </ul>
+        <div class= "text">
+            <p class = "middleText">Some random information.</p>
+        </div>
+        <div class = "info">
+            <div class = "one">
+                <img/>
+                <p>this is some subtext under an illustration of image</p>
+            </div>
+            <div class = "two">
+                <img/>
+                <p>this is some subtext under an illustration of image</p>
+            </div>
+            <div class = "three">
+                <img/>
+                <p>this is some subtext under an illustration of image</p>
+            </div>
+            <div class = "four">
+                <img/>
+                <p>this is some subtext under an illustration of image</p>
+            </div>
+        </div>
     </div>
     <div class = "endContent">
-        <ul>
-            <li>This is an inspiring quote, or a testimonial from a customer maybe it's just
-                filling up space, or maybe people will actually read it. Who knows? All I knows
-                is that i looks nice.
-            </li>
-            <li>-Thor, God of Thunder</li>
-        </ul>
-        <ul>
-            <li>Call to action! It's time!</li>
-            <li>Sign up for our product by clicking that button right over there!</li>
-            <button>Sign up</button>
-        </ul>
+        <p class = "endquote">This is an inspiring quote, or a testimonial from a customer maybe it's just
+            filling up space, or maybe people will actually read it. Who knows? All I knows
+            is that i looks nice.
+        </p>
+        <p class = "quote">-Thor, God of Thunder</p>
     </div>
+        <p>Call to action! It's time!</p>
+        <p>Sign up for our product by clicking that button right over there!</p>
+        <button>Sign up</button>
+   
     <div class = "footer">
-        <ul>
-            <li>Copyright c The Odin Project 2021</li>
-        </ul>
+        <p>Copyright c The Odin Project 2021</p>
     </div>
 </body>
 </html>
